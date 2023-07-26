@@ -20,7 +20,7 @@ public class CheckoutPostmanEchoTest {
                 // Проверки
                 .then()
                 .statusCode(200)
-                .body("data", equalTo("Как "))
+                .body("data", equalTo("Как дела"))
         ;
     }
 }
